@@ -17,17 +17,17 @@ defmodule BobTest do
     assert Bob.hey("WATCH OUT!") == "Whoa, chill out!"
   end
 
-  @tag :pending
+  # @tag :pending
   test "asking a question" do
     assert Bob.hey("Does this cryogenic chamber make me look fat?") == "Sure."
   end
 
-  @tag :pending
+  # @tag :pending
   test "talking forcefully" do
     assert Bob.hey("Let's go make out behind the gym!") == "Whatever."
   end
 
-  @tag :pending
+  # @tag :pending
   test "talking in capitals" do
     assert Bob.hey("This Isn't Shouting!") == "Whatever."
   end
