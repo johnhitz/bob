@@ -8,6 +8,7 @@ ExUnit.configure(exclude: :pending, trace: true)
 defmodule BobTest do
   use ExUnit.Case
 
+
   test "stating something" do
     assert Bob.hey("Tom-ay-to, tom-aaaah-to.") == "Whatever."
   end
